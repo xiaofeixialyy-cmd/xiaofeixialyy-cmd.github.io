@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张世阔爱李艳艳</title>
+    <style>
+        /* 目录样式 */
+        nav {
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            margin: 5px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* 图片和文本容器样式 */
+        .image-container {
+            text-align: center; /* 使内容居中 */
+            margin: 20px 0;     /* 上下外边距 */
+        }
+
+        /* 设置图片的样式 */
+        .image-container img {
+            max-width: 100%;    /* 确保图片不会超出容器宽度 */
+            height: auto;       /* 保持图片的宽高比 */
+            border: 2px solid #ddd; /* 给图片添加边框 */
+            border-radius: 4px; /* 圆角边框 */
+        }
+
+        /* 设置文本的样式 */
+        .image-container p {
+            font-size: 16px;    /* 文本大小 */
+            color: #333;        /* 文本颜色 */
+            margin: 10px 0;     /* 上下内边距 */
+            font-weight: bold;  /* 加粗字体 */
+        }
+
+        /* 标题样式 */
+        .image-container h2 {
+            font-size: 24px;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 目录 -->
+    <nav>
+        <h2>目录</h2>
+        <ul>
+            <li><a href=" ">11月3日-11月18日</a ></li>
+            <li><a href="#section2">11月18日-11月19日</a ></li>
+            <li><a href="#section3">11月19日纯享版1</a ></li>
+            <li><a href="#section4">11月19日纯享版2</a ></li>
+        </ul>
+    </nav>
+
+    <!-- 页面内容 -->
+    <article>
+        <!-- 第一张图片 -->
+        <div class="image-container" id="section1">
+            <h2>11月3日-11月18日</h2>
+            <p>这是一张美丽的风景画。</p >
+            < img src="images/12-01.jpg" alt="美丽的风景">
+        </div>
+
+        <!-- 第二张图片 -->
+        <div class="image-container" id="section2">
+            <h2>11月18日-11月19日</h2>
+            <p>这是我的宠物猫。</p >
+            < img src="images/12-02.jpg" alt="可爱的宠物猫">
+        </div>
+
+        <!-- 第三张图片 -->
+        <div class="image-container" id="section3">
+            <h2>11月19日纯享版1</h2>
+            <p>这是我去年旅行的照片。</p >
+            < img src="images/12-03.jpg" alt="去年的旅行照片">
+        </div>
+
+        <!-- 第四张图片 -->
+        <div class="image-container" id="section4">
+            <h2>11月19日纯享版2</h2>
+            <p>这是我们家的一张合影。</p >
+            < img src="images/12-04.jpg" alt="家庭合影">
+        </div>
+    </article>
+
+</body>
+</html>
